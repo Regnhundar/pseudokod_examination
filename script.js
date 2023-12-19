@@ -1,14 +1,25 @@
 // G-Version - Split the Nota
 // Skriv din pseudokod innanför nedanstående kommentarsblock
+
 /*
 
-SET variabel summa = användarinput
-SET variabel antalPersoner = användarinput
-SET dricks = användarinput
-SET resultat = 0;
-
 function uträkning()
-    while resultat >=0
+
+    SET variabel summa = användarinput
+    SET variabel antalVänner = användarinput
+    SET variabel dricks = användarinput
+
+    if summa !== nummer || antalVänner !== nummer || dricks !== nummer
+        PRINT: Du. Vi arbetar med siffror här... gör om, gör rätt.
+    end if
+    else if summa < 1 || antalVänner < 1
+        PRINT: Sikta högre än 0.
+    end if
+    else SET variabel resultat = (summa*(1+dricks))/antalVänner
+            PRINT: Varje person ska betala { resultat }
+    end else
+
+end function
 
 */
 
