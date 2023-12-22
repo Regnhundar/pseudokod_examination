@@ -81,7 +81,7 @@ function play()
             ABORT and ask for new user input
         ELSE IF (newWord === endingWord) // Målet av spelet är uppnått.
             PRINT "Nicely done! Completed in round { turn }"
-            gameOver = true // För att stoppa loopen. (Jag valde att lägga till en ny variabel för andra loopen då jag antar att toggla "gameOn === false" skulle trigga första loopen igen.)
+            gameOver = true // För att stoppa loopen. (Jag valde att lägga till en ny variabel för andra loopen då jag antar att toggla "gameOn = false" skulle trigga första loopen igen.)
         END IF
         ELSE
             SET startingWord = newWord // Om du inte fått bingo så har du ett nytt ord att utgå från.
